@@ -1,0 +1,20 @@
+h1::before{
+    content: "Esto es";
+    color: blue;    
+}
+
+h2::after{
+    content: " un After";
+    color: red;    
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+
+#name::placeholder{
+    background: black;
+    color: red;
+}
+
